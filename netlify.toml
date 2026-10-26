@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  # The repository contains a pre-built static site, so there is no build step.
+  command = ""
+  publish = "."
 
 [[redirects]]
   from = "/*"
